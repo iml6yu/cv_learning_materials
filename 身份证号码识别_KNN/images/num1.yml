@@ -1,0 +1,17 @@
+%YAML:1.0
+---
+opencv_ml_knn:
+   format: 3
+   is_classifier: 1
+   default_k: 10
+   samples: !!opencv-matrix
+      rows: 6
+      cols: 4
+      dt: f
+      data: [ 2., 2., 2., 2., 3., 3., 3., 3., 4., 4., 4., 4., 5., 5., 5.,
+          5., 6., 6., 6., 6., 7., 7., 7., 7. ]
+   responses: !!opencv-matrix
+      rows: 1
+      cols: 6
+      dt: f
+      data: [ 2., 3., 4., 5., 6., 7. ]
